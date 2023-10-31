@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+img{
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.397);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 1rem 3rem;
+    background-color: white;
+    box-shadow: 2px 0 3px rgba(0, 0, 0, 0.384);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo ion-icon{
+    color: #290093;
+    font-size: 1.7rem;
+}
+.search{
+    position: relative;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    position: absolute;
+    height: 30px;
+    width: 75%;
+    outline: none;
+    border: 1px solid #969494;
+    border-radius: 0;
+    padding: 0 1rem;
+}
+.header__button{
+    display: flex;
+}
+.search__button button{
+    height: 30px;
+    width: 65px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #290093;
+    color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.144);
+    cursor: pointer;
+}
+.button__first button{
+    border: none;
+    background-color: transparent;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button__second button{
+    border: none;
+    background-color: transparent;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button__third button{
+    border: none;
+    background-color: transparent;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    gap: 5rem;
+}
+.first-image{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+.second-image{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+main{
+    font-family: sans-serif;
+    padding: 0 3rem 2rem;
+}
+h2{
+    background-color: #290093;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.grid-img{
+    margin-left: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2.5rem;
+}
+h4{
+    padding: 0.5rem 0 0;
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+}
+.footer-content{
+    font-family: sans-serif;
+    background-color: #04000f;
+    color: white;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+.row-itself h4{
+    color: #a4eaff;
+    padding-bottom: 1rem;
+}
+.links a:any-link{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+.links a:hover, a:focus{
+    text-decoration: underline;
+}
+.links a:active{
+    color: #a4eaff;
+}
+.copyright{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
